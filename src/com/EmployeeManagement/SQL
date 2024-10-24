@@ -1,0 +1,8 @@
+CREATE DATABASE EMPLOYEEDB;
+USE EMPLOYEEDB;
+mysql> CREATE TABLE EMPLOYEE (
+    -> ID INT PRIMARY KEY,   //In your case, the id INT PRIMARY KEY ensures that each employee in the Employee table has a unique id, which cannot be duplicated.
+    -> NAME VARCHAR(100),
+    -> DEPARTMENT VARCHAR(100),
+    -> SALARY DOUBLE);
+
